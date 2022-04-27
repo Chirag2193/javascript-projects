@@ -1,8 +1,2 @@
 ## How to use the code?
-- Uncomment  ```HTML <script src="/clock/clock.js"></script>``` in from index.html
-
-## I want to show
-- Hours
-- Minutes
-- Seconds
-- AM/PM
+- Uncomment  ```<script src="/clock/clock.js"></script>``` from index.html
