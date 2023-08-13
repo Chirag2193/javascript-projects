@@ -5,18 +5,18 @@
     root.append(time);
 
     function getTime() {
-        var dateTime = new Date();
-        var hours = dateTime.getHours();
-        var minutes = dateTime.getMinutes();
-        var seconds = dateTime.getSeconds();
-        var session = "AM";
+        const dateTime = new Date();
+        let hours = dateTime.getHours();
+        const minutes = dateTime.getMinutes();
+        const seconds = dateTime.getSeconds();
+        let session = "AM";
 
-        if(hours > 12) {
+        if (hours > 12) {
             hours = hours - 12;
             session = 'PM';
         }
 
-        return hours + " : " + minutes + " : " + seconds + ' '  + session;
+        return hours + " : " + minutes + " : " + seconds + ' ' + session;
     }
 
     function showTime() {
